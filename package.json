@@ -1,0 +1,24 @@
+{
+  "name": "@enkore/realm-js-and-web-utils",
+  "version": "0.0.0",
+  "author": "Anio Software <info@anio.software>",
+  "description": "Utilities shared between realm-js and realm-web.",
+  "license": "MIT",
+  "exports": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkore-org/realm-js-and-web-utils.git"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@fourtune/core": "^0.1101.0",
+    "@fourtune/realm-js": "^0.31010.0",
+    "fourtune": "^0.30000.1"
+  },
+  "scripts": {
+    "prepare": "./node_modules/.bin/fourtune ."
+  },
+  "files": [
+    "./dist/"
+  ]
+}
