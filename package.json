@@ -16,6 +16,10 @@
     "@fourtune/realm-js": "^0.31010.0",
     "fourtune": "^0.30000.1"
   },
+  "dependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-typescript": "^7.26.0"
+  },
   "scripts": {
     "prepare": "./node_modules/.bin/fourtune ."
   },
