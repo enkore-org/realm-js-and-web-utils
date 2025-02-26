@@ -4,7 +4,7 @@ import {
 	printNode
 } from "@aniojs/node-ts-utils"
 
-type Mapper = (moduleSpecifier: string) => string
+type Mapper = Parameters<typeof impl>[1]
 
 export function mapImportSpecifiers(
 	code: string, mapper: Mapper
