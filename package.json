@@ -11,6 +11,7 @@
   },
   "type": "module",
   "devDependencies": {
+    "@aniojs/node-ts-utils": "^0.8.0",
     "@fourtune/core": "^0.1101.0",
     "@fourtune/realm-js": "^0.31010.0",
     "fourtune": "^0.30000.1"
