@@ -20,6 +20,7 @@ delete package_json.dependencies
 delete package_json.devDependencies
 delete package_json.repository
 delete package_json.files
+delete package_json.scripts
 
 package_json.name = "@enkore-types/realm-js-and-web-utils"
 
